@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+	<test name="Regression Test">
+		<classes>
+			<class name="Enterprise.MenuItemTest" />
+			<methods>
+				<include name="CheckAllTheColumnsInTheMenuItemPage"></include>
+				<include name="ValidateCreateMenuItemWithValidData"></include>
+			</methods>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
